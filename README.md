@@ -2,8 +2,6 @@
 
 An interactive web app that detects spam messages in real time using Machine Learning + NLP.
 
-🌐 **Live Demo**: [Click here to try the app](YOUR_RENDER_LINK)  
-💻 **GitHub Repo**: [This repository](REPO_LINK)
 
 ---
 
@@ -54,10 +52,6 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app.py
 
-🙌 Acknowledgments
-
-Built by Ishant Shekhar Eeshu as a personal project.
-Inspired by real-world applications of NLP in spam detection.
 
 
 ```
