@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Spam Message Filter Architecture">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1600">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Frontend -->
+        <mxCell id="2" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f4e79;strokeColor=#5b9bd5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="3" value="Streamlit Web UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f3057;strokeColor=#5b9bd5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Backend -->
+        <mxCell id="4" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f6000;strokeColor=#f39c12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="5" value="Flask / Streamlit App Logic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a65d03;strokeColor=#f39c12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="6" value="ML Inference Layer (Prediction Engine)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a65d03;strokeColor=#f39c12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Data / Model Layer -->
+        <mxCell id="7" value="Data / Model Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#145a32;strokeColor=#27ae60;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="8" value="TF-IDF Vectorizer (vectorizer.pkl)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#196f3d;strokeColor=#27ae60;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="9" value="Naive Bayes Model (model.pkl)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#196f3d;strokeColor=#27ae60;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="590" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Containerization -->
+        <mxCell id="10" value="Containerization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5b2c6f;strokeColor=#bb8fce;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="680" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="11" value="Docker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6c3483;strokeColor=#bb8fce;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="750" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Deployment -->
+        <mxCell id="12" value="Deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#641e16;strokeColor=#ec7063;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="840" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="13" value="Render / Localhost" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#78281f;strokeColor=#ec7063;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="910" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

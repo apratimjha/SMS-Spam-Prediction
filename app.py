@@ -181,7 +181,7 @@ if st.button('⚡ Analyze Message'):
 # --- Footer ---
 st.markdown("""
     <div style='text-align:center; color:#E0E0E2; font-size:15px; margin-top:40px;'>
-        🚀 Developed by <b>Ishant Shekhar</b>
+        🚀 Developed by <b>Apratim K Jha</b>
     </div>
 """, unsafe_allow_html=True)
 
